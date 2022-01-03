@@ -124,7 +124,7 @@
           font-size: 20px;
           font-weight: 600;
           padding-top: 50px;
-          color: #1c1c1c;
+          color: #1DBF73;
       }
 
       .login-with h5 {
@@ -135,7 +135,7 @@
       }
 
       .login-with h5 a {
-          color: #FA3B56;
+          color: #1DBF73;
           text-decoration: navajowhite;
       }
 
@@ -166,7 +166,7 @@
       .form-control:focus {
           color: #212529;
           background-color: #fff;
-          border-color: #fa3e59;
+          border-color: #1DBF73;
           outline: 0;
           box-shadow: none !important;
       }
@@ -190,12 +190,12 @@
 
       .login-form-bottom a {
           text-decoration: none;
-          color: #fc4866;
+          color: #1DBF73;
       }
 
       .form-check-input:checked {
-          background-color: #fc4563;
-          border-color: #fb4461;
+          background-color: #1DBF73;
+          border-color: #1DBF73;
       }
 
       /* Regestion Page */
@@ -213,17 +213,17 @@
 
       .signup-form-bottom p a {
           text-decoration: none;
-          color: #f9364f;
+          color: #1DBF73;
       }
 
       .form-login-btn {
-          background: #FA3954;
+          background: #1DBF73;
           color: #fff;
           text-decoration: none;
           font-weight: bold;
           padding: 15px 0;
           border-radius: 5px;
-          border: 1px solid #FA3954;
+          border: 1px solid #1DBF73;
           display: block;
           width: 80%;
           margin: 0 auto;
@@ -231,7 +231,7 @@
       }
 
       .alredy-have-account {
-          color: #FA3954;
+          color: #1DBF73;
           font-size: 16px;
           text-decoration: navajowhite;
           padding-top: 30px;
@@ -316,7 +316,7 @@
       }
 
       .dropdown-item:hover {
-          color: #f9364f;
+          color: #1DBF73;
       }
 
       .search {
