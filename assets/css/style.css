@@ -1,0 +1,403 @@
+  /* 
+        =============================
+            1. Base CSS
+            2. Landing Page CSS
+            3. Login Page 
+            4. Regestion Page
+            5. Home CSS
+            6. Message Page CSS
+                6.1 Message View Page
+            7. My Labels Page
+            8. My Lost Page 
+            9. My Found Page
+        =============================
+  */
+
+  /* Base CSS  */
+  /* Google Fonts  */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  a {
+      text-decoration: none !important;
+  }
+
+  .page-title {
+      font-size: 31px;
+      font-weight: bold;
+      color: #313759;
+      padding-bottom: 20px;
+  }
+
+  body {
+      font-family: 'Poppins',
+          sans-serif;
+  }
+
+  .container {
+      max-width: 768px !important;
+      padding: 16px !important;
+  }
+
+  /* main css Screen Size 450Px */
+  @media screen and (max-width: 450px) {
+
+      /* Landing Page CSS  */
+      .landing-wrap {
+          width: 90%;
+          text-align: center;
+          margin: 0 auto;
+          position: absolute;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+      }
+
+      .landing-wrap img {
+          padding-bottom: 160px;
+          width: 60%;
+      }
+
+      .landing-button {
+          margin-top: -100px;
+      }
+
+      .btn-n {
+          padding: 14px 60px;
+          margin: 15px 0;
+          border: 0;
+          border-radius: 5px;
+          width: 243px !important;
+          font-weight: 600;
+      }
+
+      .btn-n.login {
+          background: 0;
+          border: 2px solid #C3C3C5;
+          color: #1DBF73;
+          transition: .4s;
+          border-radius: 50px;
+      }
+
+      .btn-n.login:hover {
+          background: #1DBF73;
+          color: #fff;
+          transition: .4s;
+          border: 2px solid #1DBF73;
+      }
+
+      .btn-n.busniess {
+          background: #1DBF73;
+          color: #fff;
+          transition: .4s;
+          border: 2px solid #1DBF73;
+          border-radius: 50px;
+      }
+
+      .btn-n.busniess:hover {
+          background: none;
+          color: #1DBF73;
+          transition: .4s;
+          border: 2px solid #1DBF73;
+      }
+
+      /* Login Page  */
+      .login-wrap {
+          text-align: center;
+          margin: 0 auto;
+          position: absolute;
+          top: 30%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          width: 90%;
+      }
+
+      .login-logo {
+          padding-top: 300px;
+      }
+
+      .login-with h3 {
+          font-size: 20px;
+          font-weight: 600;
+          padding-top: 50px;
+          color: #1c1c1c;
+      }
+
+      .login-with h5 {
+          color: #8E8F91;
+          font-size: 16px;
+          font-weight: normal;
+          padding-top: 15px;
+      }
+
+      .login-with h5 a {
+          color: #FA3B56;
+          text-decoration: navajowhite;
+      }
+
+      .login-with-social-media {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          padding: 30px 50px;
+      }
+
+      .login-with h2 {
+          font-weight: bold;
+          font-size: 20px;
+          padding-bottom: 45px;
+      }
+
+      .login-form input {
+          border-top: 0;
+          border-radius: 0;
+          border-right: 0;
+          border-left: 0;
+          padding-left: 0;
+          padding-bottom: 10px;
+          width: 82%;
+          margin: 0 auto;
+      }
+
+      .form-control:focus {
+          color: #212529;
+          background-color: #fff;
+          border-color: #fa3e59;
+          outline: 0;
+          box-shadow: none !important;
+      }
+
+      .form-control::placeholder {
+          color: #8E8F91;
+          opacity: 1;
+          font-size: 14px;
+          font-weight: 300;
+      }
+
+      .form-control.password {
+          margin-top: 15px;
+      }
+
+      .login-form-bottom {
+          display: flex;
+          justify-content: space-evenly;
+          margin-top: 45px;
+      }
+
+      .login-form-bottom a {
+          text-decoration: none;
+          color: #fc4866;
+      }
+
+      .form-check-input:checked {
+          background-color: #fc4563;
+          border-color: #fb4461;
+      }
+
+      /* Regestion Page */
+
+      .signup-wrap {
+          text-align: center;
+          padding: 50px 0;
+      }
+
+      .signup-form-bottom p {
+          font-size: 12px;
+          padding-top: 15px;
+          color: #999A9C;
+      }
+
+      .signup-form-bottom p a {
+          text-decoration: none;
+          color: #f9364f;
+      }
+
+      .form-login-btn {
+          background: #FA3954;
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+          padding: 15px 0;
+          border-radius: 5px;
+          border: 1px solid #FA3954;
+          display: block;
+          width: 80%;
+          margin: 0 auto;
+          margin-top: 42px;
+      }
+
+      .alredy-have-account {
+          color: #FA3954;
+          font-size: 16px;
+          text-decoration: navajowhite;
+          padding-top: 30px;
+          display: block;
+      }
+
+      .form-login-btn:hover {
+          color: #fff;
+      }
+
+
+      /* Home css  */
+      .menu-bg {
+          background: #fff;
+          border: 1px solid #e3d9d9;
+          box-shadow: 3px -1px 16px -9px;
+          overflow: hidden;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+      }
+
+      .bottom-menu img {
+          width: 30px;
+      }
+
+      .bottom-menu ul li {
+          list-style: none;
+      }
+
+      .bottom-menu {
+          /*! background: red !important; */
+          /*! border-top: 1px solid red; */
+          /*! box-shadow: 3px 2px 2px 0px; */
+          background: black;
+      }
+
+      .bottom-menu ul li {
+          float: left;
+          padding: 30px 17px;
+          /* background: red; */
+      }
+
+      .bottom-menu ul {
+          margin: 0;
+          /* padding: 0; */
+      }
+
+      .dropdown-toggle::after {
+          border-top: 0 !important;
+      }
+
+      .dropdown-btn {
+          background: none;
+          border: 0;
+      }
+
+      .header {
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 30px 15px;
+      }
+
+      .header-logo {
+          text-align: center !important;
+          margin: 0 auto;
+      }
+
+      .header-logo img {
+          width: 120px;
+      }
+
+      .dropdown img {
+          width: 40px;
+      }
+
+      .dropdown-menu.show {
+          margin-top: 15px !important;
+          margin-right: 20px !important;
+      }
+
+      .dropdown-item:hover {
+          color: #f9364f;
+      }
+
+      .search {
+          padding-top: 20px;
+          padding-bottom: 35px;
+      }
+
+      .form {
+          position: relative
+      }
+
+      .form span {
+          position: absolute;
+          right: 17px;
+          top: 13px;
+          padding: 2px;
+          border-left: 1px solid #d1d5db
+      }
+
+      .left-pan {
+          padding-left: 7px
+      }
+
+      .left-pan i {
+          padding-left: 10px
+      }
+
+      .form-input {
+          height: 55px;
+          text-indent: 33px;
+          border-radius: 50px;
+      }
+
+      .form-input:focus {
+          box-shadow: none;
+          /* border: none */
+      }
+
+      .fa.fa-search {
+          color: #d1d5db
+      }
+
+      .catagorey-single img {
+          /* width: 35px; */
+          padding-bottom: 15px;
+          padding-top: 11px;
+      }
+
+      .catagorey-single {
+          text-align: center;
+          border-radius: 20px;
+          box-shadow: 0px 0px 5px -4px;
+          padding: 9px;
+          margin: 0 4px;
+          width: 33%;
+      }
+
+      .catagorey-single p {
+          font-size: 13px;
+          color: #8E8F91;
+      }
+
+      .catagorey {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding-bottom: 35px;
+      }
+
+      .catagorey-single h6 {
+          font-size: 24px;
+          font-weight: bold;
+      }
+
+
+
+
+
+
+
+
+
+
+  }
