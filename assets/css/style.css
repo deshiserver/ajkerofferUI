@@ -639,9 +639,29 @@
 
 
 
+      .product-name {
+          font-size: 32px;
+          font-weight: bold;
+      }
 
+      .product-click-price {
+          font-size: 34px;
+          color: #1DBF73;
+          text-align: center;
+          padding-bottom: 20px;
+      }
 
+      .product-click-price span {
+          font-size: 72px;
+          font-weight: bold;
+      }
 
+      .product-click-header {
+          display: flex;
+          justify-content: space-around;
+          padding: 30px;
+          align-items: center;
+      }
 
 
 
