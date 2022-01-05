@@ -47,6 +47,13 @@
       margin-bottom: 150px !important;
   }
 
+  .form-control {
+      color: #8E8F91;
+      opacity: 1;
+      font-size: 14px;
+      font-weight: 300;
+  }
+
   /* Bottom-bar  */
   .nahid {
       position: fixed;
@@ -217,7 +224,7 @@
       .form-control:focus {
           color: #212529;
           background-color: #fff;
-          border-color: #1DBF73;
+          border-color: #CED4DA;
           outline: 0;
           box-shadow: none !important;
       }
@@ -670,6 +677,178 @@
 
 
 
+      /* my-labels */
+
+      .my-sumbit-form {
+          width: 90%;
+          margin: 0 auto;
+          padding-top: 35px;
+      }
+
+      .input-group.mb-3 input {
+          /* border-right: 0; */
+          padding: 13px;
+      }
+
+      .input-group.border-right-0 input {
+          border-right: 0;
+          padding: 13px;
+      }
+
+      .form-select.form-control.mb-3 {
+          padding: 13px;
+      }
+
+      #formFileMultiple {
+          padding: 13px;
+          color: #C3C3C5;
+      }
+
+      .form-expire {
+          color: #8E8F91;
+          opacity: 1;
+          font-size: 14px;
+          font-weight: 300;
+          padding-bottom: 7px;
+      }
+
+      /* .input-group.mb-3 textarea {
+          border-right: 0 !important;
+      } */
+
+      .input-group-text {
+          color: #1DBF73;
+          background: none !important;
+      }
+
+      .input-group-text:focus {
+          border-color: red !important;
+      }
+
+      .form-select:focus {
+          border-color: #ced4da;
+          outline: 0;
+          box-shadow: none;
+      }
+
+      option {
+          background: #1dbf73;
+          color: #fff;
+          padding: 50px;
+      }
+
+      .form-select {
+          color: #C3C3C5;
+          border: 1px solid #ced4da;
+      }
+
+      .form-login-btn.add-lebels {
+          text-align: center;
+          width: 100%;
+      }
+
+      .border.mb-3.border-radius-3 {
+          border-radius: 5px;
+      }
+
+      .text-right {
+          text-align: right;
+          float: right;
+      }
+
+      .labels-qr-header {
+          padding: 30px;
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+      }
+
+      .labels-logo {
+          width: 110px;
+      }
+
+      .form-login-btn.add-lebels {
+          margin-bottom: 120px;
+      }
+
+      .text-center.labels-qr-bottom h6 {
+          color: #313759;
+          font-weight: bold;
+          font-size: 14px;
+      }
+
+      .text-center.labels-qr-bottom p {
+          color: #313759;
+          font-size: 14px;
+      }
+
+
+      .drag-image {
+          border: 1px solid #CED4DA;
+          border-radius: 5px;
+          font-weight: 400;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          padding: 40px;
+      }
+
+      .drag-image.active {
+          border: 2px solid #fff
+      }
+
+      .drag-image .icon {
+          font-size: 30px;
+          color: #C3C3C5;
+      }
+
+      .drag-image h6 {
+          font-size: 20px;
+          font-weight: 300;
+          color: #C3C3C5;
+      }
+
+      .drag-image span {
+          font-size: 14px;
+          font-weight: 300;
+          color: #C3C3C5;
+          margin: 10px 0 15px 0
+      }
+
+      .drag-image button {
+          padding: 10px 25px;
+          font-size: 14px;
+          font-weight: 300;
+          border: none;
+          outline: none;
+          background: transparent;
+          color: #C3C3C5;
+          border: 1px solid #C3C3C5;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: all 0.5s;
+      }
+
+      .drag-image button:hover {
+          background-color: #fff;
+          color: red
+      }
+
+      .drag-image img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          border-radius: 5px
+      }
+
+      .form-check-label {
+          color: #C3C3C5;
+      }
+
+      .form-check-label a {
+          color: #fa3954;
+      }
 
 
 
