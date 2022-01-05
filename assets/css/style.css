@@ -329,13 +329,13 @@
 
       .bottom-menu ul li {
           float: left;
-          padding: 30px 17px;
+          padding: 30px 22px;
           /* background: red; */
       }
 
       .bottom-menu ul {
           margin: 0;
-          /* padding: 0; */
+          padding: 0;
       }
 
       .dropdown-toggle::after {
@@ -855,4 +855,28 @@
 
 
 
+  }
+
+  @media screen and (max-width: 395px) {
+      .bottom-menu ul li {
+          float: left;
+          padding: 30px 20px;
+          /* background: red; */
+      }
+  }
+
+  @media screen and (max-width: 375px) {
+      .bottom-menu ul li {
+          float: left;
+          padding: 30px 18px;
+          /* background: red; */
+      }
+  }
+
+  @media screen and (max-width: 355px) {
+      .bottom-menu ul li {
+          float: left;
+          padding: 30px 16px;
+          /* background: red; */
+      }
   }
