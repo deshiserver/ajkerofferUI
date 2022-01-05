@@ -517,12 +517,12 @@
       }
 
       /* Coupon Click  */
-      .fas.fa-caret-left {
+      .fas.fa-chevron-left {
           font-size: 30px;
-          background: #ededed;
+          /* background: #ededed; */
           padding: 7px 20px;
           border-radius: 5px;
-          color: #1DBF73;
+          color: #C6D0E4;
       }
 
       .coupon-click-header {
