@@ -116,7 +116,7 @@
       }
 
       .landing-wrap img {
-          padding-bottom: 160px;
+          padding-bottom: 200px;
           width: 60%;
       }
 
@@ -125,7 +125,7 @@
       }
 
       .btn-n {
-          padding: 14px 60px;
+          padding: 15px 60px;
           margin: 15px 0;
           border: 0;
           border-radius: 5px;
@@ -134,33 +134,33 @@
       }
 
       .btn-n.login {
-          background: 0;
-          border: 2px solid #C3C3C5;
+          background: #F0F5FE;
+          /*! border: 2px solid #C3C3C5; */
           color: #1DBF73;
           transition: .4s;
-          border-radius: 50px;
+          border-radius: 20px;
       }
 
       .btn-n.login:hover {
-          background: #1DBF73;
-          color: #fff;
+          /*! background: #1DBF73; */
+          /*! color: #fff; */
           transition: .4s;
-          border: 2px solid #1DBF73;
+          /*! border: 2px solid #1DBF73; */
       }
 
       .btn-n.busniess {
           background: #1DBF73;
           color: #fff;
           transition: .4s;
-          border: 2px solid #1DBF73;
+          /*! border: 2px solid #1DBF73; */
           border-radius: 50px;
       }
 
       .btn-n.busniess:hover {
-          background: none;
-          color: #1DBF73;
+          /*! background: none; */
+          /*! color: #1DBF73; */
           transition: .4s;
-          border: 2px solid #1DBF73;
+          /*! border: 2px solid #1DBF73; */
       }
 
       /* Login Page  */
@@ -852,7 +852,13 @@
 
 
 
-
+      .form-bg-wrap {
+          background: #fff;
+          border-radius: 10px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          box-shadow: 0px 2px 7px -2px;
+      }
 
 
   }
