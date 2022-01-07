@@ -73,8 +73,8 @@
   }
 
   .btn-plus {
-      background: #000000b0;
-      border: 1px solid #0000007d;
+      background: #45c98d;
+      border: 1px solid #45c98d;
       height: 70px;
       text-align: center;
       margin-right: 10px;
@@ -192,11 +192,21 @@
       .login-with h3 {
           font-size: 36px;
           font-weight: 600;
-          padding-top: 50px;
+          /*! padding-top: 50px; */
           color: #1DBF73;
           text-align: left;
           line-height: 44px;
           padding-bottom: 30px;
+      }
+
+      .reg-with h3 {
+          font-size: 36px;
+          font-weight: 600;
+          /* padding-top: 50px; */
+          color: #1DBF73;
+          text-align: left;
+          line-height: 44px;
+          /* padding-bottom: 30px; */
       }
 
       .signup-with {
@@ -282,7 +292,7 @@
       /* Regestion Page */
 
       .signup-wrap {
-          text-align: center;
+          /*! text-align: center; */
           padding: 50px 0;
       }
 
@@ -319,6 +329,7 @@
           text-decoration: navajowhite;
           padding-top: 30px;
           display: block;
+          text-align: center;
       }
 
       .form-login-btn:hover {
@@ -484,11 +495,11 @@
           display: flex;
           justify-content: space-evenly;
           align-items: center;
-          box-shadow: 1px 1px 5px #FAFAFA;
+          box-shadow: 1px 1px 5px #F0F5FE;
           border-radius: 10px;
           margin-bottom: 25px;
-          border: 1px solid #F0EFEF;
-          background: #ededed;
+          border: 1px solid #F0F5FE;
+          background: #F0F5FE;
       }
 
       .coupon-logo {
@@ -880,11 +891,15 @@
       .form-bg-wrap {
           background: #fff;
           border-radius: 10px;
-          padding-top: 30px;
+          /*! padding-top: 30px; */
           padding-bottom: 30px;
-          box-shadow: 0px 2px 7px -2px;
+          /*! box-shadow: 0px 2px 7px -2px; */
       }
 
+      .menu-active {
+          background: #F0F5FE;
+          /* border-radius: 15px; */
+      }
 
   }
 

@@ -8,7 +8,8 @@
     <title>Signin - AjkerOffer</title>
     <!-- Bootstrap css  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- FontAwsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -20,34 +21,61 @@
             <div class="col-md-12">
                 <div class="signup-wrap">
                     <div class="signup-logo">
-                        <img src="assets/img/logo.png" alt=" dark-logo">
+                        <!-- <img src="assets/img/logo.png" alt=" dark-logo"> -->
                     </div>
                     <!-- Login with  -->
-                    <div class="login-with">
+                    <div class="reg-with">
                         <h3 class="mb-5">
-                            Sign up for free !
+                            Create <br>
+                            Account
                         </h3>
 
                     </div>
                     <div class="form-bg-wrap">
                         <!-- Login Form  -->
                         <form class="login-form" action="">
-                            <input type="text" placeholder="Full Name" class="form-control mb-3">
+                            <label for="regFormID" class="form-label">Full name</label>
+                            <div class="input-group mb-3 ">
 
-                            <input type="text" placeholder="User Name" class="form-control mb-3">
+                                <input type="text" class="form-control" id="regFormID" placeholder="Janedoe">
 
-                            <input type="email" placeholder="Email address" class="form-control mb-3">
+                            </div>
+                            <label for="regFormID2" class="form-label">Username</label>
+                            <div class="input-group mb-3 ">
 
-                            <input type="password" placeholder="Password" class="form-control mb-3">
+                                <input type="text" class="form-control" id="regFormID2" placeholder="doe789">
 
-                            <input type="password" placeholder="Confirm Password" class="form-control mb-3">
+                            </div>
+                            <label for="regFormID3" class="form-label">Your Email</label>
+                            <div class="input-group mb-3 ">
 
+                                <input type="text" class="form-control" id="regFormID3" placeholder="Janedoe@mail.com">
+
+                                <span class="input-group-text password-icon"><i class="fas fa-check"></i></span>
+                            </div>
+
+                            <label for="regFormID4" class="form-label">Password</label>
+                            <div class="input-group mb-3 ">
+
+                                <input type="password" class="form-control" id="regFormID4" placeholder="********">
+
+                                <span class="input-group-text password-icon"><i class="far fa-eye-slash"></i></span>
+                            </div>
+
+                            <label for="regFormID5" class="form-label">Confirm password</label>
+                            <div class="input-group mb-3 ">
+
+                                <input type="password" class="form-control" id="regFormID5" placeholder="********">
+
+                                <span class="input-group-text password-icon"><i class="far fa-eye-slash"></i></span>
+                            </div>
+                           
 
                         </form>
                         <div class="signup-form-bottom">
-                            <p>I agree to the <a href="">privacy-policy</a> and <a href="">terms of service</a>.</p>
-                            <a href="#" type="button" class="form-login-btn">Login</a>
 
+                            <a href="#" type="button" class="form-login-btn">SignUp</a>
+                            <!-- <p>I agree to the <a href="">privacy-policy</a> and <a href="">terms of service</a>.</p> -->
                             <a href="signin.html" class="alredy-have-account">Already have an account?</a>
                         </div>
 
