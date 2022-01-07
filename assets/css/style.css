@@ -24,7 +24,10 @@
 
   a {
       text-decoration: none !important;
+      color: #1dbf73;
   }
+
+
 
   .page-title {
       font-size: 31px;
@@ -165,7 +168,7 @@
 
       /* Login Page  */
       .login-wrap {
-          text-align: center;
+          /*! text-align: center; */
           margin: 0 auto;
           position: absolute;
           top: 30%;
@@ -174,27 +177,45 @@
           width: 90%;
       }
 
+      .input-group-text.password-icon {
+          border: 0;
+          background: #f0f5fe !important;
+          color: #000;
+          cursor: pointer;
+          font-size: 13px;
+      }
+
       .login-logo {
           padding-top: 300px;
       }
 
       .login-with h3 {
-          font-size: 20px;
+          font-size: 36px;
           font-weight: 600;
           padding-top: 50px;
           color: #1DBF73;
+          text-align: left;
+          line-height: 44px;
+          padding-bottom: 30px;
       }
 
-      .login-with h5 {
+      .signup-with {
           color: #8E8F91;
           font-size: 16px;
           font-weight: normal;
-          padding-top: 15px;
+          /*! padding-top: 15px; */
+          text-align: center;
       }
+
 
       .login-with h5 a {
           color: #1DBF73;
           text-decoration: navajowhite;
+      }
+
+      .form-label {
+          color: #000000;
+          font-size: 14px;
       }
 
       .login-with-social-media {
@@ -211,20 +232,22 @@
       }
 
       .login-form input {
-          border-top: 0;
-          border-radius: 0;
-          border-right: 0;
-          border-left: 0;
-          padding-left: 0;
-          padding-bottom: 10px;
-          width: 82%;
-          margin: 0 auto;
+          /*! border-top: 0; */
+          /*! border-radius: 0; */
+          /*! border-right: 0; */
+          /*! border-left: 0; */
+          /*! padding-left: 0; */
+          padding: 10px;
+          /*! width: 82%; */
+          /*! margin: 0 auto; */
+          background: #F0F5FE;
+          border: 0;
       }
 
       .form-control:focus {
           color: #212529;
-          background-color: #fff;
-          border-color: #CED4DA;
+          background-color: #f0f5fe;
+          /*! border-color: #CED4DA; */
           outline: 0;
           box-shadow: none !important;
       }
@@ -242,7 +265,7 @@
 
       .login-form-bottom {
           display: flex;
-          justify-content: space-evenly;
+          justify-content: space-between;
           margin-top: 45px;
       }
 
@@ -278,14 +301,16 @@
           background: #1DBF73;
           color: #fff;
           text-decoration: none;
-          font-weight: bold;
+          font-weight: 600;
           padding: 15px 0;
-          border-radius: 5px;
+          border-radius: 20px;
           border: 1px solid #1DBF73;
           display: block;
-          width: 80%;
+          /*! width: 80%; */
           margin: 0 auto;
           margin-top: 42px;
+          text-align: center;
+          font-size: 20px;
       }
 
       .alredy-have-account {
