@@ -568,7 +568,7 @@
       }
 
       .coupon-click-wrap {
-          background: #ededed;
+          background: #F0F5FE;
           border-radius: 10px;
           margin-bottom: 30px;
       }
@@ -820,7 +820,7 @@
 
 
       .drag-image {
-          border: 1px solid #CED4DA;
+          border: 1px solid #F0F5FE;
           border-radius: 5px;
           font-weight: 400;
           display: flex;
@@ -828,6 +828,11 @@
           justify-content: center;
           flex-direction: column;
           padding: 40px;
+          background: #f0f5fe;
+      }
+
+      .form-select {
+          color: #8E8F91 !important;
       }
 
       .drag-image.active {
@@ -901,6 +906,25 @@
           /* border-radius: 15px; */
       }
 
+      .input-group input {
+          background: #F0F5FE;
+          border: 0;
+      }
+
+      .input-group span {
+          background: #F0F5FE !important;
+          border: 0;
+      }
+
+      .input-group textarea {
+          background: #F0F5FE;
+          border: 0;
+      }
+
+      .my-sumbit-form select {
+          background: #F0F5FE;
+          border: 0;
+      }
   }
 
   @media screen and (max-width: 395px) {
