@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/trialrr/public_html/ajkerofferui/
+    - export REPOPATH=/home/trialrr/ajkerofferui/
+    - rsync -aP --exclude '.env' ${REPOPATH}/ ${DEPLOYPATH}
